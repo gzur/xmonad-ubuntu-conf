@@ -13,19 +13,19 @@
 #
 
 # Empathy chat client (-h: start hidden, -n: don't connect on launch)
-if [ -z "$(pgrep empathy)" ] ; then
-    empathy -h -n &
-fi
+# if [ -z "$(pgrep empathy)" ] ; then
+#     empathy -h -n &
+# fi
 
 # Remmina remote desktop connection client (-i: start hidden)
-if [ -z "$(pgrep remmina)" ] ; then
-    remmina -i &
-fi
+# if [ -z "$(pgrep remmina)" ] ; then
+#     remmina -i &
+# fi
 
 # Network manager, so we don't have to configure wifi at the command line.
-if [ -z "$(pgrep nm-applet)" ] ; then
-    nm-applet --sm-disable &
-fi
+# if [ -z "$(pgrep nm-applet)" ] ; then
+#     nm-applet --sm-disable &
+# fi
 
 # Applet for managing print jobs from the tray.
 if [ -z "$(pgrep system-config-printer-applet)" ] ; then
@@ -48,8 +48,21 @@ fi
 # If you don't use the ssh keychain you may not want this. Commented
 # by default as it is assumed many users will not want this feature.
 
-# export SSH_ASKPASS="/usr/bin/ssh-askpass"
-# cat /dev/null | ssh-add &
+#set background image to horsy horse
+
+
+
+export SSH_ASKPASS="/usr/bin/ssh-askpass"
+cat /dev/null | ssh-add &
+#add our private key
+if [[ `ssh-add -l` != *bucket* ]]; then 
+  ssh-add ~/.ssh/bitbucket-private-key
+fi
+
+# set the keyboard repeat delay and rate to 300 msek and 70 lpm (letters per minute) - gz
+xset r rate 300 70
+# set the background image
+feh --bg-fill ~/adventure_time.jpg
 
 # I disable the middle mouse button because otherwise I constantly 
 # accidentally paste unwanted text in the middle of my code while scrolling. 

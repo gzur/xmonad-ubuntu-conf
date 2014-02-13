@@ -1,4 +1,4 @@
-{-
+ {-
   This is my xmonad configuration file.
   There are many like it, but this one is mine.
 
@@ -24,6 +24,8 @@ import XMonad.Layout.NoBorders
 import XMonad.Layout.Circle
 import XMonad.Layout.PerWorkspace (onWorkspace)
 import XMonad.Layout.Fullscreen
+-- gz sort import
+import XMonad.Util.WorkspaceCompare
 import XMonad.Util.EZConfig
 import XMonad.Util.Run
 import XMonad.Hooks.DynamicLog
@@ -43,7 +45,7 @@ myModMask            = mod4Mask       -- changes the mod key to "super"
 myFocusedBorderColor = "#ff0000"      -- color of focused border
 myNormalBorderColor  = "#cccccc"      -- color of inactive border
 myBorderWidth        = 1              -- width of border around windows
-myTerminal           = "terminator"   -- which terminal software to use
+myTerminal           = "gnome-terminal"   -- which terminal software to use
 myIMRosterTitle      = "Contact List" -- title of roster on IM workspace
 
 
@@ -59,8 +61,8 @@ myVisibleWSColor = "#c185a7"  -- color of inactive workspace
 myUrgentWSColor  = "#cc0000"  -- color of workspace with 'urgent' window
 myCurrentWSLeft  = "["        -- wrap active workspace with these
 myCurrentWSRight = "]"
-myVisibleWSLeft  = "("        -- wrap inactive workspace with these
-myVisibleWSRight = ")"
+myVisibleWSLeft  = ""        -- wrap inactive workspace with these
+myVisibleWSRight = ""
 myUrgentWSLeft  = "{"         -- wrap urgent workspace with these
 myUrgentWSRight = "}"
 
@@ -86,13 +88,13 @@ myUrgentWSRight = "}"
 
 myWorkspaces =
   [
-    "7:Chat",  "8:Dbg", "9:Pix",
-    "4:Docs",  "5:Dev", "6:Web",
-    "1:Term",  "2:Hub", "3:Mail",
-    "0:VM",    "Extr1", "Extr2"
+    "7:Chat",     "8:Debug",          "9:Pix",
+    "4:Web",     "5:Editor",         "6:Docs",
+    "1:Terminal", "2:Hg", "3:Mail",
+    "0:VM",       "Extr1",            "Extr2"
   ]
 
-startupWorkspace = "5:Dev"  -- which workspace do you want to be on after launch?
+startupWorkspace = "5:Editor"  -- which workspace do you want to be on after launch?
 
 {-
   Layout configuration. In this section we identify which xmonad
@@ -258,13 +260,20 @@ myManagementHooks = [
   resource =? "synapse" --> doIgnore
   , resource =? "stalonetray" --> doIgnore
   , className =? "rdesktop" --> doFloat
-  , (className =? "Komodo IDE") --> doF (W.shift "5:Dev")
-  , (className =? "Komodo IDE" <&&> resource =? "Komodo_find2") --> doFloat
-  , (className =? "Komodo IDE" <&&> resource =? "Komodo_gotofile") --> doFloat
-  , (className =? "Komodo IDE" <&&> resource =? "Toplevel") --> doFloat
-  , (className =? "Empathy") --> doF (W.shift "7:Chat")
-  , (className =? "Pidgin") --> doF (W.shift "7:Chat")
-  , (className =? "Gimp-2.8") --> doF (W.shift "9:Pix")
+  , (className =? "sublime_text") --> doF (W.shift "5:Editor")
+  , (className =? "Sublime_text") --> doF (W.shift "5:Editor")
+  , (className =? "Sublime Text") --> doF (W.shift "5:Editor")
+  --, (className =? "google-chrome-stable") --> doF (W.shift "6:Web")
+  , (className =? "Google-chrome-stable") --> doF (W.shift "4:Web")
+  , (className =? "gnome-terminal") --> doF (W.shift "1:Terminal")
+  , (className =? "Gnome-terminal") --> doF (W.shift "1:Terminal")
+  , (className =? "thg") --> doF (W.shift "2:Hg")
+  --, (className =? "Komodo IDE" <&&> resource =? "Komodo_find2") --> doFloat
+  --, (className =? "Komodo IDE" <&&> resource =? "Komodo_gotofile") --> doFloat
+  --, (className =? "Komodo IDE" <&&> resource =? "Toplevel") --> doFloat
+  --, (className =? "Empathy") --> doF (W.shift "7:Chat")
+  --, (className =? "Pidgin") --> doF (W.shift "7:Chat")
+  --, (className =? "Gimp-2.8") --> doF (W.shift "9:Pix")
   ]
 
 
@@ -319,7 +328,7 @@ myKeys = myKeyBindings ++
   [
     ((m .|. myModMask, key), screenWorkspace sc
       >>= flip whenJust (windows . f))
-      | (key, sc) <- zip [xK_w, xK_e, xK_r] [1,0,2]
+      | (key, sc) <- zip [xK_w, xK_e, xK_r] [0,1,2]
       , (f, m) <- [(W.view, 0), (W.shift, shiftMask)]
   ]
 
@@ -355,6 +364,7 @@ main = do
         . wrap myCurrentWSLeft myCurrentWSRight
       , ppVisible = xmobarColor myVisibleWSColor ""
         . wrap myVisibleWSLeft myVisibleWSRight
+      ,ppSort = getSortByXineramaRule
       , ppUrgent = xmobarColor myUrgentWSColor ""
         . wrap myUrgentWSLeft myUrgentWSRight
     }
