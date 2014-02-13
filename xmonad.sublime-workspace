@@ -1,0 +1,559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"moun",
+				"mount_vbox_share"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "xmonad.sublime setup.sublime.workspace",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "xmonad.hs",
+			"settings":
+			{
+				"buffer_size": 14836,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"hask",
+				"Set Syntax: Haskell"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"ref",
+				"Project: Refresh Folders"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublime",
+				"SublimeHg: Open Menu"
+			],
+			[
+				"subl",
+				"SublimeHg: Open Menu"
+			],
+			[
+				"hak",
+				"Set Syntax: Haskell"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 342.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/gzur/fibetco/stack/deployment/ansible/root.yaml",
+		"/home/gzur/fibetco/stack/deployment/vagrant/Vagrantfile",
+		"/home/gzur/fibetco/Vagrantfile",
+		"/home/gzur/fibetco/stack/deployment/install_docker.sh",
+		"/home/gzur/.xmonad/xmonad.hs",
+		"/home/gzur/.xmonad/xmobarrc",
+		"/home/gzur/.xmonad/start-xmonad",
+		"/home/gzur/.xmonad/startup-hook",
+		"/home/gzur/test.sh",
+		"/home/gzur/.xmonad/README.md",
+		"/home/gzur/fibetco/3rdparty/bootstrap/examples/starter-template/starter-template.css",
+		"/home/gzur/fibetco/3rdparty/seedrandom.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/beth_app.js",
+		"/home/gzur/fibetco/stack/webface/gzru/app.js",
+		"/home/gzur/fibetco/stack/webface/gzru/my_node_modules/sim/whitelabel_sim.js",
+		"/home/gzur/fibetco/stack/config/config_master.py",
+		"/home/gzur/fibetco/stack/webface/gzru/my_node_modules/fbc.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/aws_queue.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/hq/manage/game_manager.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/toys/sample_bet_db.js",
+		"/home/gzur/fibetco/stack/webface/gzru/my_node_modules/db_config.js",
+		"/home/gzur/fibetco/stack/webface/gzru/public/stack/play/forfun/all_in.html",
+		"/home/gzur/fibetco/stack/webface/gzru/public/stack/play/forfun/js/app_game_forfun_all_in.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/toys/sample_game_db.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/toys/sample_pool_db.js",
+		"/home/gzur/fibetco/stack/fbc_lib/fbce_node_modules/fbc_logger.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/toys/sample_wlp_db.js",
+		"/home/gzur/.xmonad/xmonad.errors",
+		"/home/gzur/fibetco/3rdparty/angular/angular-1.0.8/i18n/angular-locale_ln.js",
+		"/home/gzur/fibetco/3rdparty/angular/angular-1.0.8/angular-loader.js",
+		"/home/gzur/fibetco/3rdparty/bootstrap/about.html",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/db_config.js",
+		"/home/gzur/fibetco/stack/resolver/db_init_seed.py",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/socket.io/node_modules/redis/diff_multi_bench_output.js",
+		"/home/gzur/fibetco/3rdparty/bootstrap/DOCS-LICENSE",
+		"/home/gzur/fibetco/data/settle_game.py",
+		"/home/gzur/fibetco/stack/bet_engine/beth/node_modules/aws-sdk/apis/kinesis-2013-12-02.json",
+		"/home/gzur/fibetco/stack/webface/gzru/my_node_modules/aws_queue.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/fbce_node_modules/fbc_logger.js",
+		"/home/gzur/fibetco/stack/logger/fbc_logger.py",
+		"/home/gzur/fibetco/3rdparty/bootstrap/CONTRIBUTING.md",
+		"/home/gzur/fibetco/data/datasim/c20_ohlc.sqlite",
+		"/home/gzur/fibetco/.idea/compiler.xml",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/BufferPool.js",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/sqlite3/node_modules/node-pre-gyp/node_modules/aws-sdk/lib/credentials/web_identity_credentials.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/node_modules/aws-sdk/node_modules/xml2js/test/fixtures/sample.xml",
+		"/home/gzur/fibetco/stack/bet_engine/beth/node_modules/aws-sdk/lib/metadata_service.js",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/lib/squeeze-more.js",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/sqlite3/node_modules/node-pre-gyp/node_modules/nopt/examples/my-program.js",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/sqlite3/deps/sqlite-autoconf-3080200.tar.gz",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/bet_handler.js",
+		"/home/gzur/fibetco/data/mockup/unibet/test1/www.unibet.com/betting.dust",
+		"/home/gzur/fibetco/stack/bet_engine/install.sh",
+		"/home/gzur/fibetco/stack/bet_engine/beth/package.json",
+		"/home/gzur/fibetco/stack/fbc_lib/fbce_node_modules/package.json",
+		"/home/gzur/fibetco/.hgignore",
+		"/home/gzur/fibetco/euroscraper/serve.js",
+		"/home/gzur/fibetco/frontend_mockup/index.html",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/hq/manage/package.json",
+		"/home/gzur/fibetco/stack/bet_engine/beth/my_node_modules/package.json",
+		"/home/gzur/fibetco/doc/machine_config.txt",
+		"/home/gzur/fibetco/frontend_mockup/stock-data-row.html",
+		"/home/gzur/fibetco/stack/webface/gzru/my_node_modules/fbc_backend.js",
+		"/home/gzur/fibetco/3rdparty/bootstrap/_includes/footer.html",
+		"/home/gzur/fibetco/stack/node_modules/socket.io/lib/manager.js",
+		"/home/gzur/fibetco/stack/bet_engine/beth/public/hq/manage/css/manage.css",
+		"/home/gzur/fibetco/stack/bet_engine/beth/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/home/gzur/fibetco/.idea/misc.xml",
+		"/home/gzur/fibetco/frontend_mockup/js/controllers.js",
+		"/home/gzur/fibetco/euroscraper/euroscraper.py",
+		"/home/gzur/.config/sublime-text-3/Packages/Mercurial for Sublime/Mercurial for Sublime.sublime-settings",
+		"/home/gzur/fibetco/stack/bet_engine/beth/install.sh",
+		"/home/gzur/.config/sublime-text-3/Packages/User/Mercurial for Sublime.sublime-settings",
+		"/home/gzur/fibetco/research/beth_python/bet_handler.py",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/aws-sdk/doc-src/guide/browser-examples.md",
+		"/home/gzur/fibetco/3rdparty/bootstrap/bower.json",
+		"/home/gzur/fibetco/euroscraper/node_modules/socket.io/lib/transports/htmlfile.js",
+		"/home/gzur/fibetco/safe/src/standardrecords/schemas/types/TalHelType.xsd",
+		"/home/gzur/fibetco/HOWTO.txt",
+		"/home/gzur/fibetco/stack/webface/gzru/node_modules/jquery/src/manipulation/_evalUrl.js",
+		"/home/gzur/fibetco/euroscraper/install.sh",
+		"/home/gzur/mount_win_share.sh",
+		"/home/gzur/fibetco/frontend_mockup/simple_node_http.js",
+		"/home/gzur/.xmonad/xmonad.desktop",
+		"/home/gzur/fibetco/stack/kickoff/kickoff.py",
+		"/home/gzur/.xmonad/xmonad.o",
+		"/home/gzur/.xmonad/xmonad.hi"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/gzur/fibetco/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Source",
+			"hg",
+			"Xinerama",
+			"StdinReader",
+			"hPutStrLn",
+			"xmproc",
+			"myCurrentWSRight",
+			"xmobarPP",
+			"ppUrgent",
+			"myTitleLength",
+			"myModMask",
+			"usedratio",
+			"stalone",
+			"appl",
+			"120",
+			"appl",
+			"battery",
+			"#.*",
+			"$",
+			"Terminator",
+			"Web",
+			"whitelabel",
+			"fbc",
+			"sim_odds",
+			"get_logo_path",
+			"forfun",
+			"forfun.html",
+			"stack",
+			"forfun",
+			"stack",
+			"show_main",
+			"json",
+			"html",
+			"wlp_test1",
+			"sim_play",
+			"sim",
+			"get(",
+			"get",
+			"listen",
+			"get",
+			"fbc_makebet",
+			"conn",
+			"rdbConn",
+			"pg",
+			"db_cfg",
+			"create",
+			"get",
+			"hq_manage_games",
+			"game_manager",
+			"aws_queue",
+			"logger",
+			"autoConfig",
+			"Invalid",
+			"config",
+			"sprintf",
+			"manage_games_page",
+			"hq_manage_games",
+			"auth",
+			"statusCode",
+			"require",
+			"npm install",
+			"rand",
+			"ucomment",
+			"socket",
+			"eventName",
+			"sharename",
+			"location",
+			"log",
+			"modal",
+			"top20DKStocksCtrl",
+			"onmessage",
+			"debugger",
+			"//,\n",
+			"tick",
+			"socket.io",
+			"stock",
+			"ScraperRequestHandler",
+			"trouble",
+			"\\n",
+			"myTitleLength",
+			"[",
+			"Web",
+			"\n      ",
+			"myWorkspaces",
+			"W.",
+			"W",
+			"Monitor",
+			"-w",
+			"switch",
+			"screen",
+			"screens"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "xmonad.sublime setup.sublime.workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "xmonad.hs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11192,
+								11192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4053.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "xmonad.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"whitelabel_sim",
+				"stack/webface/gzru/my_node_modules/sim/whitelabel_sim.js"
+			],
+			[
+				"all_in",
+				"stack/webface/gzru/public/stack/play/forfun/all_in.html"
+			],
+			[
+				"db_confi",
+				"stack/webface/gzru/my_node_modules/db_config.js"
+			],
+			[
+				"game",
+				"stack/bet_engine/beth/my_node_modules/hq/manage/game_manager.js"
+			],
+			[
+				"aws_queue",
+				"stack/bet_engine/beth/my_node_modules/aws_queue.js"
+			],
+			[
+				"fbc_logger.js",
+				"stack/fbc_lib/fbce_node_modules/fbc_logger.js"
+			],
+			[
+				"samwlp",
+				"stack/bet_engine/beth/my_node_modules/toys/sample_wlp_db.js"
+			],
+			[
+				"sampool",
+				"stack/bet_engine/beth/my_node_modules/toys/sample_pool_db.js"
+			],
+			[
+				"sample_bet",
+				"stack/bet_engine/beth/my_node_modules/toys/sample_bet_db.js"
+			],
+			[
+				"sample_game",
+				"stack/bet_engine/beth/my_node_modules/toys/sample_game_db.js"
+			],
+			[
+				"sample",
+				"stack/bet_engine/beth/my_node_modules/toys/sample_bet_db.js"
+			],
+			[
+				"game_manager",
+				"stack/bet_engine/beth/my_node_modules/hq/manage/game_manager.js"
+			],
+			[
+				"bet",
+				"stack/bet_engine/beth/beth_app.js"
+			],
+			[
+				"fbc_",
+				"stack/logger/fbc_logger.py"
+			],
+			[
+				".hgi",
+				".hgignore"
+			],
+			[
+				"beth",
+				"stack/bet_engine/beth/beth_app.js"
+			],
+			[
+				"euro",
+				"euroscraper/euroscraper.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/.xmonad/xmonad.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
